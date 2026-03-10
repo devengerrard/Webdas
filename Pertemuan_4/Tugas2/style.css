@@ -1,0 +1,120 @@
+@import
+url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav, .playlist {
+    list-style: none;
+    padding: 0 15px 0 15px;
+    margin-bottom: 5px;
+    color: #b3b3b3;
+}
+
+.nav li, .playlist li {
+    margin-bottom: 10px;
+}
+
+.nav li:hover, .playlist li:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+.playlist-label {
+    font-variant: small-caps;
+    color: #b3b3b3;
+    padding: 0 15px 0 15px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #000;
+    vertical-align: top;
+}
+
+.logo {
+    color: #1DB954;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.text {
+    color: #b3b3b3;
+    margin-top: 10px;
+    padding: 0 15px 0 15px;
+    font-size: 12px;
+}
+
+.album-art img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.main {
+    background-color: #121212;
+}
+
+.now-playing {
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.song-title {
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+}
+
+.artist-name {
+    font-size: 15px;
+    color: #b3b3b3;
+}
+
+.previous {
+    color: #fff;
+    text-decoration: none;
+}
+
+.controls {
+    padding: 10px;
+}
+
+.next {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.ctrl-btn {
+    border-radius: 50px;
+    background-color: #1DB954;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    margin: 20px;
+}
+
+.playlist-table {
+    width: 90%;
+    border-collapse: collapse;
+    color: #fff;
+    align-items: left;
+}
+
+.playlist-table th {
+    align-items: left;
+}
