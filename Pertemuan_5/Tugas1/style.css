@@ -1,0 +1,110 @@
+.kartu {
+    display: block;
+    position: absolute;
+    margin: 0;
+    justify-content: center;
+    background-color: #1e2761;
+    width: 450px;
+    height: 250px;
+    color: #f3f3f3;
+    border-radius: 25px;
+}
+
+.bulat-1 {
+    position: absolute;
+    background-color: #ffffff1a;
+    border-radius: 50%;
+    top: -35%;
+    left: 60%;
+    width: 250px;
+    height: 250px;
+}
+
+.bulat-2 {
+    position: absolute;
+    background-color: #ffffff1a;
+    border-radius: 50%;
+    top: 60%;
+    left: 5%;
+    width: 175px;
+    height: 175px;
+}
+
+.kotak {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    background-color: #f5d061;
+}
+
+.mybank {
+    font-weight: bold;
+    position: relative;
+    left: 25px;
+    top: 20px;
+    font-size: 20px;
+}
+
+.card-number {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-holder {
+    display: flex;
+    direction: column;
+}
+
+.card-holder h3 {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+
+.card-holder h1 {
+    font-size: 14px;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    margin-top: 15px;
+}
+
+.expires {
+    display: flex;
+    direction: column;
+}
+
+.expires h3 {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 75%;
+    right: 20%;
+}
+
+.expires h1 {
+    font-size: 14px;
+    position: absolute;
+    top: 80%;
+    right: 20%;
+    margin-top: 15px;
+}
+
+.visa {
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+}
